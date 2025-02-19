@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
     const playerContainer = document.createElement("div");
     playerContainer.className = "player-container";
     playerContainer.innerHTML = `
@@ -43,3 +44,4 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     };
 });
+</script>
